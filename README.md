@@ -4,6 +4,8 @@ Browser independent VexFlow context
 ## Getting Started
 `npm install standalone-vexflow-context`
 
+And `react-native-svg` and `vexflow` should be installed in your host project.
+
 Ex)
 ```
 import { ReactNativeSVGContext, NotoFontPack } from 'standalone-vexflow-context';
