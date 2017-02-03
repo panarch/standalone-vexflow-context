@@ -1,6 +1,6 @@
 {
   "name": "standalone-vexflow-context",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standalone vexflow contexts for supporting React Native & Node.js",
   "main": "index.js",
   "scripts": {
