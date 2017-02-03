@@ -1,0 +1,32 @@
+{
+  "name": "standalone-vexflow-context",
+  "version": "0.1.0",
+  "description": "Standalone vexflow contexts for supporting React Native & Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panarch/standalone-vexflow-context.git"
+  },
+  "keywords": [
+    "Vexflow",
+    "Node.js",
+    "React",
+    "Native"
+  ],
+  "author": "Taehoon Moon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panarch/standalone-vexflow-context/issues"
+  },
+  "homepage": "https://github.com/panarch/standalone-vexflow-context#readme",
+  "peerDependencies": {
+    "vexflow": ">= 1.2.83 < 2"
+  },
+  "dependencies": {
+    "opentype.js": "^0.6.9",
+    "base64-arraybuffer": "^0.1.5"
+  }
+}
