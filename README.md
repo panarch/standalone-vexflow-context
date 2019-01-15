@@ -1,6 +1,10 @@
 # standalone-vexflow-context
 Browser independent VexFlow context
 
+If you want to use VexFlow on Node.js,  
+=> https://github.com/panarch/node-vexflow
+
+
 ## Getting Started
 `npm install standalone-vexflow-context`
 
