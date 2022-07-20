@@ -67,15 +67,13 @@ export class ReactNativeSVGContext extends SVGContext {
 
   fillText(text, x, y) {
     const attributes = {};
-    Vex.Merge(attributes, this.attributes);
-
     const path = this.create('path');
     const fontSize = this.getFontSize();
     const font = this.fontPack.getFont(attributes);
     const pathData = font.getPath(text, x, y, fontSize).toPathData();
 
     attributes.d = pathData;
-    attributes.stroke = "none";
+    attributes.stroke = "black";
     attributes.x = x;
     attributes.y = y;
 
