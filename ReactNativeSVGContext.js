@@ -1,5 +1,4 @@
 import React from 'react';
-import { Vex } from 'vexflow/src/vex';
 import { SVGContext } from 'vexflow/src/svgcontext';
 import { StaveNote } from 'vexflow/src/stavenote';
 import Svg, { Path, Rect, G } from 'react-native-svg';
@@ -66,8 +65,7 @@ export class ReactNativeSVGContext extends SVGContext {
   }
 
   fillText(text, x, y) {
-    const attributes = {};
-    Vex.Merge(attributes, this.attributes);
+    const attributes = { ...this.attributes};
 
     const path = this.create('path');
     const fontSize = this.getFontSize();
